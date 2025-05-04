@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Clothe</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="logo">
+      <a href="#"><img src="assets/eclothe.jpeg" alt="" srcset=""></a>
+    </div>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="#">Ropa</a></li>
+        <li><a href="#">Calzado</a></li>
+        <li><a href="#">Accesorios</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <div class="search">
+        <input type="text" placeholder="Buscar...">
+        <button type="submit">Buscar</button>
+      </div>
+      <button id="loginBtn" class="button">Iniciar Sesión</button>
+      <div class="dropdown">
+        <button id="hamburgerBtn" class="hamburger-btn"><i class="fas fa-bars"></i></button>
+        <div id="dropdownMenu" class="dropdown-content">
+          <a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a>
+          <a href="#"><i class="fas fa-history"></i> Historial de Compras</a>
+          <a href="#"><i class="fas fa-heart"></i> Favoritos</a>
+          <a href="#" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Encuentra tu Equipamiento Deportivo Ideal</h1>
+    <p>Ropa, calzado y accesorios con diseño minimalista para tus entrenamientos.</p>
+    <a href="#" class="button">Ver Productos</a>
+  </section>
+
+  <section class="products">
+    <h2>Nuestros Productos Destacados</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="assets/youngla.webp" alt="Ropa Deportiva">
+        <h3>Short Deportiva</h3>
+        <p class="price">$29.99</p>
+        <a href="#" class="button">Ver Detalles</a>
+      </div>
+      <div class="product-card">
+        <img src="assets/youngla2.webp" alt="Calzado Deportivo">
+        <h3>Pants para Correr</h3>
+        <p class="price">$79.99</p>
+        <a href="#" class="button">Ver Detalles</a>
+      </div>
+      <div class="product-card">
+        <img src="assets/youngla3.webp" alt="Accesorio Deportivo">
+        <h3>Ropa Deportiva</h3>
+        <p class="price">$14.99</p>
+        <a href="#" class="button">Ver Detalles</a>
+      </div>
+    </div>
+    <div class="view-all">
+      <a href="#">Ver Todos los Productos</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2025 E-Clothe. Todos los derechos reservados.</p>
+    <nav>
+      <ul>
+        <li><a href="#">Términos y Condiciones</a></li>
+        <li><a href="#">Política de Privacidad</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
